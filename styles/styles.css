@@ -516,12 +516,17 @@ footer {
         align-items: center;
         flex-direction: column;
     }
+    
 
-    .image-total3 {
+    .image-total3 {  
         align-items: center;
         flex-direction: column;
     }
-
+    
+    .single-img {
+        width: 100%;
+    }
+    
     .section3-img-container img {
         width: 100%;
     }
