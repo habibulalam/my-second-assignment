@@ -32,6 +32,24 @@ body {
     font-weight: 400;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>h1 {
+    color: var(--Dark-01, #131318);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* Banner related style */
 .banner {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 70%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
@@ -260,23 +278,56 @@ body {
     cursor: pointer;
 }
 
-.section5-img img{
+.section5-img img {
     width: 100%;
     height: 100%;
 }
+
 /* footer related styles */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-content{
+
+.footer-content {
+    margin-top: 80px;
     max-width: 800px;
     text-align: center;
 }
 
+.footer-content hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.footer-content ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-content ul li {
+    font-size: 2rem;
+    list-style: none;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -349,12 +400,13 @@ footer{
     .card3 {
         width: 100%;
     }
-    .section5-container{
+
+    .section5-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
 }
 
 /* MEdia query for Medium Device  */
