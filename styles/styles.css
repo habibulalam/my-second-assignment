@@ -395,13 +395,14 @@ nav {
 }
 
 .profile{
+    background-color: rgba(233, 68, 68, 0.055);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     text-align: center;
 }
 .info-container{
-    border: 5px solid grey;
+    border: 5px solid rgb(173, 21, 21);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 15px 10px 10px darkgray;
@@ -412,7 +413,7 @@ nav {
 }
 .profile i{
     padding: 30px;
-    border: 6px solid rgb(100, 100, 100);
+    border: 6px solid rgba(28, 99, 117, 0.623);
     border-radius: 100px 100px 5px 5px;
     font-size: 6rem;
 
